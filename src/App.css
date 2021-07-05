@@ -1,7 +1,7 @@
 :root {
 	--background-color: rgb(80,80,80);
 	--lime: #a2faa0;
-	--blue: #003cff;
+	--blue: #2BB7E9;
 	--yellow: #FCE789;
 }
 
@@ -43,23 +43,42 @@ svg {
 	color: white;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	border-style: dotted;
+	border-style: solid;
 	border-width: 2px;
 	border-color: white;
 	padding: .5rem;
 	border-radius: .25rem;
 }
 
-.navLinkOne {
-	
+.navStyle1 {
+	border-color: var(--blue);
 }
 
-.navLinkOne {
-	
+.navStyle1:hover {
+	background-color: var(--yellow);
+	border: solid transparent;
+	border-width: 2px;
+	color: black;
 }
 
-.navLinkOne {
-	
+.navStyle2 {
+	border-color: var(--green);
+}
+
+.navStyle2:hover {
+	background-color: var(--blue);
+	border: solid transparent;
+	border-width: 2px;
+}
+
+.navStyle3 {
+	border-color: var(--yellow);
+}
+
+.navStyle3:hover {
+	background-color: var(--lime);
+	border: solid transparent;
+	border-width: 2px;
 }
 
 #aboutNav:hover {

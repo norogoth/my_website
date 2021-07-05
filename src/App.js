@@ -18,11 +18,27 @@ function App() {
 		}
 	];
 
+	const navs = navData.map((nav,i) => {
+		if (i % 3 === 0) {
+		console.log("3");
+		return <Nav.Link className="navLink navStyle3" id={nav.label} href={nav.link}>{nav.label}</Nav.Link>
+		}
+		else if (i % 2 === 0) {
+		console.log("2");
+		return <Nav.Link className="navLink navStyle2" id={nav.label} href={nav.link}>{nav.label}</Nav.Link>
+		}
+		else {
+		console.log("1");
+		return <Nav.Link className="navLink navStyle1" id={nav.label} href={nav.link}>{nav.label}</Nav.Link>
+		}
+	});
+
 	const cardData = [
 		{
 			imagePath: "null",
 			title: "sample title",
 			description: "sample description. lorem ipsum dolor sit amet.",
+			link: "https://github.com/norogoth/cat_game"
 		}
 	];
 	
@@ -54,8 +70,7 @@ function App() {
 		</div>
 		<Navbar>
 			<Nav>
-				<Nav.Link className="navLink" id="homeNav">Home</Nav.Link>
-				<Nav.Link className="navLink" id="aboutNav">About</Nav.Link>
+				{navs}
 			</Nav>
 		  </Navbar>
 		  <div className="cardDiv">
