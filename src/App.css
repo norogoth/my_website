@@ -1,6 +1,8 @@
 :root {
 	--background-color: rgb(80,80,80);
-	--lime: rgb(0,180,0);
+	--lime: #a2faa0;
+	--blue: #003cff;
+	--yellow: #FCE789;
 }
 
 body {
@@ -37,12 +39,58 @@ svg {
 }
 
 .navLink {
-	color: var(--lime);
+	text-decoration: none;
+	color: white;
 	margin-left: 1rem;
 	margin-right: 1rem;
+	border-style: dotted;
+	border-width: 2px;
+	border-color: white;
+	padding: .5rem;
+	border-radius: .25rem;
 }
 
-.card {
-	background-color: white;
-	max-width: 10rem;
+.navLinkOne {
+	
 }
+
+.navLinkOne {
+	
+}
+
+.navLinkOne {
+	
+}
+
+#aboutNav:hover {
+	background-color: var(--lime);
+}
+
+/*CARD STUFF */
+
+.card {
+	border-radius: .25rem;
+	background-color: white;
+	max-width: 15rem;
+	padding: .5rem;
+	margin: .5rem;
+}
+
+.cardStyle1 {
+	background-color: var(--lime);
+}
+
+.cardStyle2 {
+	background-color: var(--blue);
+}
+
+.cardStyle3 {
+	background-color: var(--yellow);
+}
+
+.cardDescription {
+	font-size: .75rem;
+}
+
+
+
