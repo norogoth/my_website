@@ -3,6 +3,22 @@
 	--lime: #a2faa0;
 	--blue: #2BB7E9;
 	--yellow: #FCE789;
+	--offwhite: #FFFCE3;
+}
+
+@font-face {
+	font-family: KeepCalm;
+	src: url(KeepCalm-Medium.ttf);
+}
+
+@font-face {
+	font-family: SansSerif;
+	src: url(sans_serif_plus_7.ttf);
+}
+
+@font-face {
+	font-family: RalewayMedium;
+	src: url(Raleway-Medium.ttf);
 }
 
 body {
@@ -10,19 +26,27 @@ body {
 }
 
 svg {
+	position: absolute;
+	top: 5vh;
 	height: 100%;
 	width: 100%;
 }
 
 .titleDiv {
+	width: 100%;
 	display: flex;
+	flex-direction: column;
+	padding: 1rem;
 	justify-content: center;
-	margin-bottom:auto;
+	align-self: center;
+	text-align: center;
 }
 
 .mainTitle {
-	margin-top: 0;
+	margin-top: 3vh;
+	margin-bottom: 0;
 	padding: 1rem;
+	font-family: KeepCalm;
 }
 
 .gradientDiv {
@@ -36,6 +60,7 @@ svg {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 2vh;
 }
 
 .navLink {
@@ -88,11 +113,21 @@ svg {
 /*CARD STUFF */
 
 .card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	border-radius: .25rem;
 	background-color: white;
 	max-width: 15rem;
+	max-height: 15rem;
+	min-width: 10rem;
 	padding: .5rem;
-	margin: .5rem;
+	margin: .75rem;
+	box-shadow: 9px 12px 20px;
+}
+
+.card:hover {
+	box-shadow: 1px 1px 20px rgb(120,120,120), -1px -1px 20px rgb(120,120,120);
 }
 
 .cardStyle1 {
@@ -111,5 +146,50 @@ svg {
 	font-size: .75rem;
 }
 
+.cardDiv {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
+.cardTitle {
+	font-family: RalewayMedium;
+}
+
+.cardImage {
+	height: 40%;
+}
+
+
+/* ABOUT */
+
+.about {
+	display: flex;
+	justify-content: center;
+}
+
+.articleContent {
+	position: relative;
+	background-color: var(--lime);
+	padding: 1rem;
+	border-radius: .5rem;
+	width: 90%;
+}
+
+.sidebarDiv {
+	float: right;
+	width: 30%;
+	min-width: 150px;
+	background-color: var(--yellow);
+	padding:.5rem;
+	border-radius: .5rem;
+}
+
+.school, .degree {
+	margin: 0;
+}
+
+.degree {
+	color: var(--blue);
+}
 
