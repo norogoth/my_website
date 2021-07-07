@@ -46,6 +46,7 @@ export default function Portfolio() {
 			description: "Python script to solve vehicle routing problem",
 			link: "https://github.com/norogoth/VehicleRoutingProblem"
 		},
+		/*
 		{
 			imagePath: "/img/circuit.png",
 			title: "Calculator",
@@ -60,6 +61,7 @@ export default function Portfolio() {
 			description: "A simple little game created using Javascript.",
 			link: "https://github.com/norogoth/VehicleRoutingProblem"
 		},
+		*/
 	];
 	
 	const cards = cardData.map((cardObj, i) => {
