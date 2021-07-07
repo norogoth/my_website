@@ -1,7 +1,7 @@
 :root {
 	--background-color: rgb(80,80,80);
 	--lime: #a2faa0;
-	--blue: #2BB7E9;
+	--blue: #6894eb;
 	--yellow: #FCE789;
 	--offwhite: #FFFCE3;
 }
@@ -113,15 +113,17 @@ svg {
 
 .card {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: center;
+	
 	border-radius: .25rem;
-	background-color: white;
 	max-width: 15rem;
 	max-height: 15rem;
 	min-width: 10rem;
-	padding: .5rem;
+	padding: .75rem;
 	margin: .75rem;
+
+	background-color: white;
 	box-shadow: 9px 12px 20px;
 }
 
@@ -142,6 +144,7 @@ svg {
 }
 
 .cardDescription {
+	margin-top: 0;
 	font-size: .75rem;
 }
 
@@ -155,8 +158,17 @@ svg {
 	font-family: RalewayMedium;
 }
 
+.cardImageDiv {
+	max-width: 200px;
+	height:40%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
 .cardImage {
-	height: 40%;
+	max-height: 200px;
+	object-fit: contain;
 }
 
 
