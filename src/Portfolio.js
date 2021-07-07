@@ -7,14 +7,14 @@ export default function Portfolio() {
 		{
 			imagePath: "/img/bingo1.png",
 			title: "Full-Stack Bingo Application",
-			tags:[],
+			tags:["Javascript"],
 			description: "Full-stack application coded with React and Express. MySQL backend.",
 			link: "https://github.com/norogoth/GusAndEddyWebsite"
 		},
 		{
 			imagePath: "/img/pitcher2.png",
 			title: "Pitcher Analyzer",
-			tags:[],
+			tags:["C#"],
 			description: "Analyzes MLB pitchers using regression analysis to create projections.",
 			link: "https://github.com/norogoth/PitcherAnalyzer"
 		},
@@ -35,15 +35,22 @@ export default function Portfolio() {
 		{
 			imagePath: "/img/cat1.png",
 			title: "Cat Game",
-			tags:[],
+			tags:["Python"],
 			description: "A simple little game with original artwork and graphics. Code is old (read: \"bad\") but game is still fun. :3",
 			link: "https://github.com/norogoth/cat_game"
 		},
 		{
 			imagePath: "/img/routing1.png",
 			title: "Vehicle Routing Problem",
-			tags:[],
+			tags:["Python"],
 			description: "Python script to solve vehicle routing problem",
+			link: "https://github.com/norogoth/VehicleRoutingProblem"
+		},
+		{
+			imagePath: "/img/my_website.png",
+			title: "Code for this Website",
+			tags:["javascript","React"],
+			description: "Here is the code for this website. Made with React.",
 			link: "https://github.com/norogoth/VehicleRoutingProblem"
 		},
 		/*
