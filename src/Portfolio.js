@@ -9,28 +9,28 @@ export default function Portfolio() {
 			title: "Full-Stack Bingo Application",
 			tags:[],
 			description: "Full-stack application coded with React and Express. MySQL backend.",
-			link: "https://github.com/norogoth/cat_game"
+			link: "https://github.com/norogoth/GusAndEddyWebsite"
 		},
 		{
 			imagePath: "/img/pitcher2.png",
 			title: "Pitcher Analyzer",
 			tags:[],
 			description: "Analyzes MLB pitchers using regression analysis to create projections.",
-			link: "https://github.com/norogoth/cat_game"
+			link: "https://github.com/norogoth/PitcherAnalyzer"
 		},
 		{
 			imagePath: "/img/planner1.png",
 			title: "Appointment Manager",
 			languages:["Java", "SQL"],
 			description: "Simple application that uses MySQL backend to create, view, and edit appointments.",
-			link: "https://github.com/norogoth/cat_game"
+			link: "https://github.com/norogoth/AppointmentManager"
 		},
 		{
 			imagePath: "/img/inventory3.png",
 			title: "Inventory Manager",
 			tags:["Java"],
 			description: "Prototype application for an inventory mangement system. ",
-			link: "https://github.com/norogoth/cat_game"
+			link: "https://github.com/norogoth/Inventory-Manager"
 		},
 		{
 			imagePath: "/img/cat1.png",
@@ -63,19 +63,19 @@ export default function Portfolio() {
 	];
 	
 	const cards = cardData.map((cardObj, i) => {
-		console.log("entering code");
+
+		let classNameString;
+
 		if (i % 3 === 0) {
-		console.log("3");
-			return <Card className="card cardStyle3" imagePath={cardObj.imagePath} title={cardObj.title} description={cardObj.description} />
+			classNameString = "card cardStyle3";
 		}
 		else if (i % 2 === 0) {
-		console.log("2");
-			return <Card className="card cardStyle2" imagePath={cardObj.imagePath} title={cardObj.title} description={cardObj.description} />
+			classNameString = "card cardStyle2";
 		}
 		else {
-		console.log("1");
-			return <Card className="card cardStyle1" imagePath={cardObj.imagePath} title={cardObj.title} description={cardObj.description} />
+			classNameString = "card cardStyle1";
 		}
+		return <Card className={classNameString} link={cardObj.link} tags={cardObj.tags} imagePath={cardObj.imagePath} title={cardObj.title} description={cardObj.description} />
 	});
 
   return (
