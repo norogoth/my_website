@@ -42,7 +42,7 @@ function App() {
 		<div className= "gradientDiv">
 			<div className="titleDiv">
 				<h1 className="mainTitle">Landon Aaker</h1>
-				<p>Software Developer for hire 🖥️</p>
+				<p>Software Developer 🖥️</p>
 			</div>
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 140" preserveAspectRatio="none">
 				<path fill="#505050" fill-opacity="1" d="M0,96L80,90.7C160,85,320,75,480,80C640,85,800,107,960,106.7C1120,107,1280,85,1360,74.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
