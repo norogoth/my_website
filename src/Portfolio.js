@@ -51,7 +51,7 @@ export default function Portfolio() {
 			title: "Code for this Website",
 			tags:["javascript","React"],
 			description: "Here is the code for this website. Made with React.",
-			link: "https://github.com/norogoth/VehicleRoutingProblem"
+			link: "https://github.com/norogoth/my_website"
 		},
 		/*
 		{
