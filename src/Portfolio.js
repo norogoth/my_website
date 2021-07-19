@@ -19,10 +19,17 @@ export default function Portfolio() {
 			link: "https://github.com/norogoth/PitcherAnalyzer"
 		},
 		{
+			imagePath: "img/wires.png",
+			title: "Perl hashifier",
+			tags:["Perl"],
+			description: "This is a perl script that can read hashes into memory using txt files.",
+			link: "https://github.com/norogoth/perl_object_reader/blob/master/README.md",
+		},
+		{
 			imagePath: "/img/planner1.png",
 			title: "Appointment Manager",
 			languages:["Java", "SQL"],
-			description: "Simple application that uses MySQL backend to create, view, and edit appointments.",
+			description: "Simple prototype application that uses MySQL backend to create, view, and edit appointments.",
 			link: "https://github.com/norogoth/AppointmentManager"
 		},
 		{
