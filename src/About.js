@@ -1,14 +1,14 @@
-import Sidebar from './Sidebar.js';
+import Sidebar from './components/Sidebar.js';
 
 export default function About() {
 	return (
 		<div className="about">
 			<div className="articleContent">
 				<Sidebar />
-				<img alt="image of a good software developer." className="selfPortrait" src="./img/me.jpeg"/>
+				<img alt="image of a good software developer." className="selfPortrait" src="./img/family.png"/>
 				<h2 className="articleHeading">Who I Am</h2>
 				<p className="aboutText">
-					My name is Landon Aaker and I have been working on software development for three years. I especially love working with SQL, Linux (Debian flavors). In my current position I have been using a LAMP(erl) stack for backend (with some nodeJS) and JQuery and Backbone for a little front-end. I also like coding in C#, Python, and Java. I love all things IT and I look forward towards creating solutions for you.
+					My name is Landon Aaker and I have been developing software for the past three years, professionally for the past year and a half. In my current position I have been using a LAMP(erl) stack for backend (with some nodeJS) and JQuery and Backbone for a little front-end. I also like coding in C#, Python, and Java and using Debian Linux distros. I love all things IT and I look forward towards creating solutions for you.
 				</p>
 				<p className="aboutText">
 					When I am not programming, I am often reading old books, spending time with my baby, or planning out my next Dungeon World (like D&D but better) campaign.

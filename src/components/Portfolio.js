@@ -5,6 +5,13 @@ export default function Portfolio() {
 
 	const cardData = [
 		{
+			imagePath: "/img/village.png",
+			title: "Village Generator (WIP)",
+			tags:["Javascript"],
+			description: "Creates a random village for a tabletop RPG session. Select 'generate' to see random results. Data is not mine.",
+			link: "https://deluxe-semifreddo-ccd4ed.netlify.app/"
+		},
+		{
 			imagePath: "/img/bingo1.png",
 			title: "Full-Stack Bingo Application",
 			tags:["Javascript"],
@@ -96,6 +103,9 @@ export default function Portfolio() {
 
   return (
     <div className="Portfolio">
+		<div className="portDescDiv">
+			<p className="portDesc light">Most of my work is closed source but here are some of my little side-projects</p>
+		</div>
 			<div className="cardDiv">
 				{cards}
 			</div>

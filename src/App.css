@@ -1,8 +1,8 @@
 :root {
 	--background-color: rgb(80,80,80);
-	--lime: #a2faa0;
-	--blue: #6894eb;
-	--yellow: #FCE789;
+	--lime: #c5f3c5;
+	--blue: #bccef1;
+	--yellow: #fdf4c9;
 	--offwhite: #FFFCE3;
 }
 
@@ -241,8 +241,15 @@ svg {
 .cardDiv {
 		margin-left: 0;
 		margin-right: 0;
-		}
+}
 }
 
+.portDesc {
+	color: #FFFCE3;
+	font-size: 1.5rem;
+}
 
-
+.portDescDiv {
+	display: flex;
+	justify-content: center;
+}

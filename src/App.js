@@ -3,8 +3,8 @@ import './App.css';
 import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Card from './Card.js';
-import Portfolio from './Portfolio.js';
+import Card from './components/Card.js';
+import Portfolio from './components/Portfolio.js';
 import About from './About.js';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
