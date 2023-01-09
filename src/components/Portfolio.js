@@ -104,7 +104,7 @@ export default function Portfolio() {
   return (
     <div className="Portfolio">
 		<div className="portDescDiv">
-			<p className="portDesc light">Most of my work is closed source but here are some of my little side-projects</p>
+			<p className="portDesc light">Most of my work is closed source but here are some of my little side-projects.</p>
 		</div>
 			<div className="cardDiv">
 				{cards}

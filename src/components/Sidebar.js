@@ -3,7 +3,7 @@ export default function Sidebar() {
 		<div className="sidebarDiv">
 			<div className="sidebarContent">
 				<h3 className="sidebarHeading">Email</h3>
-				<p className="sideBarContent">qxztk@protonmail.com</p>
+				<p className="sideBarContent">landonaaker@gmail.com</p>
 				<h3 className="sidebarHeading">Education</h3>
 			<ul className="schoolList">
 				<li className="schoolPar">

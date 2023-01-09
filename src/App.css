@@ -52,7 +52,7 @@ svg {
 	z-index:-1;
 	position:relative;
 	height: 35vh;
-	background: linear-gradient(155deg, rgba(0,60,255,1) 4%, rgba(162,250,160,1) 58%, rgba(255,223,0,1) 84%);
+	background: linear-gradient(155deg, rgb(75, 115, 247) 4%, rgba(162,250,160,1) 58%, rgb(252, 233, 112) 84%);
 }
 
 .navbar-nav {
@@ -213,7 +213,7 @@ svg {
 }
 
 .degree {
-	color: var(--blue);
+	font-weight: bold;
 }
 
 .selfPortrait {
@@ -239,8 +239,8 @@ svg {
 }
 
 .cardDiv {
-		margin-left: 0;
-		margin-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 }
 
@@ -252,4 +252,10 @@ svg {
 .portDescDiv {
 	display: flex;
 	justify-content: center;
+}
+
+.cardTag {
+	color: yellow;
+	padding: .5rem;
+	font-size: .5rem;
 }
